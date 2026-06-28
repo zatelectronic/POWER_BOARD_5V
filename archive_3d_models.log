@@ -1,0 +1,36 @@
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 238:Plugin executed on: 'win32'
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 239:Plugin executed with python version: '3.11.5 (main, Nov  6 2025, 07:48:09) [MSC v.1944 64 bit (AMD64)]'
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 240:KiCad build version: 9.0.7
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 241:Plugin version: 1.0.15
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 246:Screen sizes: [wx.Size(1920, 1200), wx.Size(3840, 2160)]
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 253:Dialog size: wx.Size(213, 81)
+03-14 14:52:31 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 255:Char size: 25
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 30:Starting to archive 3D models
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D2
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: F1
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: C:/Users/zat/OneDrive/DOC/KiCad/9.0/3dmodels/FUSES/1808-2410 贴片保险丝.STEP
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: C:/Users/zat/OneDrive/DOC/KiCad/9.0/3dmodels/FUSES/1808-2410 贴片保险丝.STEP
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D1
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 146:Did not copy: ${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP4
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C6
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x12.5.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x12.5.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP1
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U2
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP2
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP3
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C5
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.wrl
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L1
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: C:/Users/zat/OneDrive/DOC/KiCad/9.0/3dmodels/INDUTOR/L_12x12mm_H8mm.step
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: C:/Users/zat/OneDrive/DOC/KiCad/9.0/3dmodels/INDUTOR/L_12x12mm_H8mm.step
+03-14 14:52:33 com_github_MitjaNemec_Archive3DModels.archive_3d_models 164:Did not succeed to copy 3D models!
+('D1', '${KICAD9_3DMODEL_DIR}\\Diode_SMD.3dshapes\\D_SMA.wrl')
