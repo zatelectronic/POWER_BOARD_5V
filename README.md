@@ -91,19 +91,13 @@ O design é compacto e totalmente SMD, com conexões de entrada e saída por **p
 ## Diagrama de Funcionamento
 
 ```
-DC IN (+24V) ──[F1 3A]──[D1 SMA]──────────────────────► +24V interno
-                                   │
-                                  [C5 100µF/35V] (filtro entrada)
-                                   │
-                              [U2 LM2596S-5]  ← Regulador buck
-                                   │
-                                  [L1 33µH]   ← Indutor de saída
-                                   │
-                    [D2 SS54] ←────┤            ← Diodo Schottky (roda livre)
-                    (SMA SMD)      │
-                                  [C6 680µF/16V] (filtro saída)
-                                   │
-DC OUT (+5V) ◄─────────────────────┘
+DC IN (+24V) ──[F1 3A]──[D1 SS54]──┬──────────► VIN  [U1 LM2596S-5]  OUT ──┬──[L1 33µH]──┬──► DC OUT (+5V)
+                                   │                       │                  │             │
+                         [C1 100µF/35V]              GND / ~ON/OFF      [D2 SS54]     [C2 680µF/16V]
+                                   │                       │            (roda livre)        │
+                                  GND                     GND                 │            GND
+                                                                             GND
+                                    FB do U1 ◄──────────────────────────────────────── +5V
 
 DC IN (GND) ──────────────────────────────────────────► DC OUT (GND)
 
@@ -139,14 +133,14 @@ TP3, TP4 → pontos de teste na saída
 
 | Ref | Componente | Valor / Parte | Encapsulamento |
 |-----|-----------|--------------|----------------|
-| U2 | Regulador Chaveado | LM2596S-5 | TO-263-5 SMD |
+| U1 | Regulador Chaveado | LM2596S-5 | TO-263-5 SMD |
 | L1 | Indutor de Potência | 33µH | 12×12×8mm |
 | D2 | Diodo Schottky (roda livre) | SS54 — 5A / 40V | SMA SMD |
-| D1 | Diodo SMD | SS36 | SMA SMD |
-| C5 | Capacitor Eletrolítico (entrada) | 100µF / 35V | SMD Eletrolítico 10×10mm |
-| C6 | Capacitor Eletrolítico (saída) | 680µF / 16V | SMD Eletrolítico 10×12,5mm |
+| D1 | Diodo Schottky (proteção contra inversão) | SS54 — 5A / 40V | SMA SMD |
+| C1 | Capacitor Eletrolítico (entrada) | 100µF / 35V | SMD Eletrolítico 10×10mm |
+| C2 | Capacitor Eletrolítico (saída) | 680µF / 16V | SMD Eletrolítico 10×12,5mm |
 | F1 | Fusível de Proteção | 3A | SMD 1808/2410 |
-| TP1–TP4 | Pontos de Teste | — | SMD |
+| TP1–TP4 | Pads de solda / teste | 10 × 4 mm | SMD |
 
 ---
 
@@ -193,18 +187,19 @@ A placa utiliza **pads de solda expostos** nas extremidades para conexão da ent
 ## Estrutura do Repositório
 
 ```
-POWER_BOARD/
-├── POWER_BOARD.kicad_pro         # Arquivo de projeto KiCad
-├── POWER_BOARD.kicad_sch         # Esquemático (KiCad 10)
-├── POWER_BOARD.kicad_pcb         # Layout da PCB (KiCad 10)
-├── POWER_BOARD.kicad_prl         # Configurações locais do projeto
-├── packages3D/                   # Modelos 3D arquivados (STEP / WRL)
-│   ├── L_12x12mm_H8mm.step
-│   ├── 1808-2410_Fuse.STEP
-│   └── ...
-├── fp-info-cache                 # Cache de footprints
+POWER_BOARD_5V/
+├── POWER_BOARD_5V.kicad_pro      # Arquivo de projeto KiCad 10
+├── POWER_BOARD_5V.kicad_sch      # Esquemático: capa A2 (índice das folhas)
+├── BUCK.kicad_sch                # Folha 02: buck LM2596S-5
+├── CONN.kicad_sch                # Folha 03: pads DC IN / DC OUT + PWR_FLAG
+├── POWER_BOARD_5V.kicad_pcb      # Layout da PCB (KiCad 10)
+├── POWER_BOARD_5V.kicad_prl      # Configurações locais
+├── POWER_BOARD_5V.kicad_dru      # Regras customizadas (vazio: version 1)
+├── Zat_TitleBlock.kicad_wks      # Title block ZAT ELECTRONIC
+├── packages3D/                   # Modelos 3D arquivados (referência)
 ├── imagem_1.png                  # Render 3D superior
 ├── imagem_2.png                  # Render 3D isométrico
+├── LEIA-ME_REVISAO_R01.md        # O que mudou na revisão R01
 └── README.md
 ```
 
