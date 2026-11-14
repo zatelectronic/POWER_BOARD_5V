@@ -2122,7 +2122,7 @@
 		(dnp no)
 		(uuid "28433959-4af3-4f4e-930b-b5da30d71d8f")
 		(property "Reference" "L1"
-			(at 92.71 82.55 0)
+			(at 92.71 83.185 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2132,7 +2132,7 @@
 			)
 		)
 		(property "Value" "33uH"
-			(at 92.71 90.17 0)
+			(at 92.71 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,25 +2661,25 @@
 		(dnp no)
 		(uuid "aef4f27a-c25e-4a03-843d-329cf993a4b0")
 		(property "Reference" "C1"
-			(at 58.42 69.85 0)
+			(at 56.515 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "100uF/35V"
-			(at 54.61 72.39 0)
+			(at 56.515 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
