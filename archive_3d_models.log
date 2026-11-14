@@ -1,33 +1,33 @@
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 238:Plugin executed on: 'win32'
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 239:Plugin executed with python version: '3.11.5 (main, Oct 29 2026, 05:20:44) [MSC v.1951 64 bit (AMD64)]'
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 240:KiCad build version: 10.0.8
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 241:Plugin version: 1.0.15
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 246:Screen sizes: [wx.Size(3840, 2160), wx.Size(3840, 2160)]
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 253:Dialog size: wx.Size(213, 81)
-11-12 14:24:05 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 255:Char size: 25
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 30:Starting to archive 3D models
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D2
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: F1
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${ZAT_3D}/FUSES/1808-2410 贴片保险丝.STEP
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${ZAT_3D}/FUSES/1808-2410 贴片保险丝.STEP
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D1
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP4
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x12.5.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x12.5.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP1
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U1
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP2
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP3
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x10.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L1
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${ZAT_3D}/INDUTOR/L_12x12mm_H8mm.step
-11-12 14:24:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${ZAT_3D}/INDUTOR/L_12x12mm_H8mm.step
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 238:Plugin executed on: 'win32'
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 239:Plugin executed with python version: '3.11.5 (main, Oct 29 2026, 05:20:44) [MSC v.1951 64 bit (AMD64)]'
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 240:KiCad build version: 10.0.8
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 241:Plugin version: 1.0.15
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 246:Screen sizes: [wx.Size(3840, 2160), wx.Size(3840, 2160)]
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 253:Dialog size: wx.Size(213, 81)
+11-13 22:57:45 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 255:Char size: 25
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 30:Starting to archive 3D models
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D2
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/D_SMA.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/D_SMA.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: F1
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/1808-2410 贴片保险丝.STEP
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/1808-2410 贴片保险丝.STEP
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: D1
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/D_SMA.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/D_SMA.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP4
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C2
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/CP_Elec_10x12.5.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/CP_Elec_10x12.5.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP1
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: U1
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/TO-263-5_TabPin3.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/TO-263-5_TabPin3.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP2
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: TP3
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: C1
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/CP_Elec_10x10.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/CP_Elec_10x10.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 51:Getting 3D models for footprint of: L1
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 63:Trying to copy: ${KIPRJMOD}/packages3D/L_12x12mm_H8mm.step
+11-13 22:57:46 com_github_MitjaNemec_Archive3DModels.archive_3d_models 150:Remapping: ${KIPRJMOD}/packages3D/L_12x12mm_H8mm.step
